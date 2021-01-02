@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>530</width>
+    <height>520</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(0, 120, 225, 255), stop:0.5 rgba(0, 120, 225, 255), stop:1 rgba(40, 145, 255, 255));</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="buttonRU">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>80</y>
+      <width>250</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Helvetica Neue</family>
+      <pointsize>64</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: rgba(0, 0, 0, 0); color: rgba(159, 208, 255, 255); border-radius: 20px; border-style: solid; border-color: rgba(159, 208, 255, 255); border-width: 3px;}
+QPushButton::hover::!pressed {background-color: rgba(20, 25, 80, 0); color: rgba(255, 255, 255, 255); border-color: rgba(255, 255, 255, 255)}
+QPushButton::pressed {background-color: rgba(255, 255, 255, 255)};</string>
+    </property>
+    <property name="text">
+     <string>RU</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="usernameField">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>220</y>
+      <width>450</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Helvetica Neue</family>
+      <pointsize>40</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(32, 32, 32, 0); color: rgba(255, 255, 255, 255);
+border-radius: 30px;
+border-style: solid;
+border-color: rgba(159, 208, 255, 255);
+border-width: 4px;
+qproperty-frame: false;</string>
+    </property>
+    <property name="text">
+     <string>Inepta</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonUS">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>300</y>
+      <width>250</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Helvetica Neue</family>
+      <pointsize>64</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: rgba(0, 0, 0, 0); color: rgba(159, 208, 255, 255); border-radius: 20px; border-style: solid; border-color: rgba(159, 208, 255, 255); border-width: 3px;}
+QPushButton::hover::!pressed {background-color: rgba(20, 25, 80, 0); color: rgba(255, 255, 255, 255); border-color: rgba(255, 255, 255, 255)}
+QPushButton::pressed {background-color: rgba(255, 255, 255, 255)};</string>
+    </property>
+    <property name="text">
+     <string>US</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
